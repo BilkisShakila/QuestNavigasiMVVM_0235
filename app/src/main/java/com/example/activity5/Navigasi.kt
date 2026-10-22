@@ -10,3 +10,8 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.example.activity5.view.FormIsian
 import com.example.activity5.view.TampilData
+
+enum class Navigasi{
+    FormulirSaya,
+    Detail
+}
