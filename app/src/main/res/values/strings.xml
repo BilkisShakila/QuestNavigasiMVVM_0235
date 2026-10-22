@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">activity5</string>
+    <string name="submit">submit</string>
+    <string name="back">back</string>
+    <string name="nama_lengkap">NAMA LENGKAP </string>
+    <string name="Jenis_Kelamin">Jenis Kelamin</string>
+    <string name="Alamat">ALAMAT</string>
+    <string name="tampil">Tampilan Data</string>
+    <string name="home">Form Isian</string>
 </resources>
