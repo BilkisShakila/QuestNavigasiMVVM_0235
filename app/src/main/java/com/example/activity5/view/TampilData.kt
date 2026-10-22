@@ -25,3 +25,21 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.activity5.R
+
+@OptIn(ExperimentalMaterial3Api::class)
+@Composable
+fun TampilData(
+    onBackBtnClick: () -> Unit,
+){
+    val items = listOf(
+        Pair(stringResource(id = R.string.nama_lengkap),"contoh nama"),
+        Pair(stringResource(id = R.string.Jenis_Kelamin),"lainya"),
+        Pair(stringResource(id = R.string.Alamat),"Yogyakarta")
+    )
+    Scaffold (modifier= Modifier,
+        topBar = {
+            TopAppBar(
+                title = { Text(text = stringResource(id = R.string.tampil), color = Color.White) },
+                colors = TopAppBarDefaults.mediumTopAppBarColors(containerColor = colorResource(id = R.color.teal_700))
+            )
+        })
